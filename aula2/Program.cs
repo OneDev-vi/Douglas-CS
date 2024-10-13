@@ -9,7 +9,7 @@ namespace aula2
             Console.WriteLine("Hello World!");
             Console.WriteLine("Este é um novo programa em C#");
             Console.WriteLine("Aperte ENTER para sair");
-            //Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
