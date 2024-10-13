@@ -13,6 +13,11 @@ class Principal
         float a1 = 204f;
         char z = 'j';
         const int a = 2024;
+        int sal,jp,kidb;
+        sal = 100;
+        jp = 50;
+        kidb = 20;
+        int soma = sal * (jp + kidb);
         Console.WriteLine("douglas!!!");
         Console.WriteLine(manga);
         Console.WriteLine(sapo);
@@ -23,6 +28,7 @@ class Principal
         Console.WriteLine(bit8); // 8
         Console.WriteLine(s.GetType()); // System.String
         Console.WriteLine(a); // 2024
+        Console.WriteLine(soma); // 1700
         Console.WriteLine("Hello World!");
     }
 }
