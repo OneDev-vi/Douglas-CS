@@ -18,7 +18,7 @@ class Principal
         v2 = Convert.ToInt32(Console.ReadLine());
         soma = v1 + v2;
         Console.WriteLine("A soma dos dois números é: " + soma);
-        int e = Convert.ToInt32(Console.ReadLine());
+        int e = int.Parse(Console.ReadLine());
         Console.WriteLine(e);
         
         Console.ReadKey();
