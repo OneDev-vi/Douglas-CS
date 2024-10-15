@@ -2,8 +2,16 @@ using System;
 
 class Principal
 {
+    enum r4 {manga, cerveja, maconha};
+    static bool t5 = true;
     static void Main()
     {
+        r4 y6 = r4.manga;
+        r4 y7 = (r4)3;
+        int y8 = (int)r4.cerveja;
+        Console.WriteLine(y7);
+        Console.WriteLine(y8);
+        Console.WriteLine(y6);
         /*
         Console.WriteLine("Hello, World!"); // Imprime a frase
 
@@ -32,5 +40,18 @@ class Principal
         {
             Console.WriteLine("Aluno reprovado!");
         }
+
+        Console.WriteLine(t5);
+        /*
+        int eff = 232323;
+        enum a {asa, dsd, aqw, por};
+        Console.WriteLine(a.a);
+        //a ds = (a)3;
+        //Console.WriteLine(ds);
+        */
+    }
+    void asj()
+    {
+        int sal = 243;
     }
 }

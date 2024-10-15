@@ -13,6 +13,9 @@ class Principal
             */
             int vint = 12;
             short vint2 = (short)vint;
+            int casaco = 10;
+            short vint3 = (short)casaco;
+            string com = (string)vint;
             Console.WriteLine(vint2); // Imprime: 12
             Console.ReadLine(); // Aguarda a entrada do usuário para fechar a janela
         }

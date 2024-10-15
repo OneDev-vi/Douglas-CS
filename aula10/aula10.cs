@@ -1,7 +1,7 @@
 using System;
 
 class Principal
-{
+{              //0  //1  //2   //3
     enum manga {mmm, pão, sal, açucar};
     static void Main()
     {
