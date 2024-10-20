@@ -17,6 +17,11 @@ class Principal
         */
         int[] num = new int[5]{1,2,3,4,5};
         int[] n = {2,232,434,55};
+        int[] seila = new int[2];
+        seila[0] = 1;
+        seila[1] = 2;
+        seila[2] = 3;
+        Console.WriteLine(seila[2]);
         Console.WriteLine(num[4]);
     }
 }
