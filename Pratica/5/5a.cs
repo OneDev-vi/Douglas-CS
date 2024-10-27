@@ -13,7 +13,7 @@ class Principal
         Console.WriteLine(ds2);
         Console.WriteLine(sa);
         Console.WriteLine(se);
-        
+        //int x = 100;
         //Console.Clear();
     }
 }
