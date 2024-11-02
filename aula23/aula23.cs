@@ -4,16 +4,24 @@ class Program
 {
     static void Main(string[] args)
     {
+        Random java = new Random();
+        //int SAL = random.Next(10, 20);
+        Console.WriteLine("Random Java: " + java);
+        //Console.WriteLine("Random C#: " + SAL);
+        Console.WriteLine(java);
         int[] vector0 = new int[11]{0,1,2,3,4,5,6,7,8,9,10};
         int[] vector = new int[5]{1,2,3,4,5};
         int[] vector01 = new int[5]{5,7,9,2,5};
         int[] vector2 = new int[5]{5,10,15,20,25};
         int[] vector3 = new int[10];
+        int[] vector4 = new int[5]{1,2,3,4,5,};
         int[,] matriz = new int[2,5]{{10,15,20,25,30},{30,35,40,50,55}};
+        //long[] long1 = new long[10]{1,2,3,4,5,6,7,8,9,10};
+        //long[,] long2 = new long[2,5]{{1,2,3,4,5} , {10,11,12,13,14,15}};
         Random random = new Random();
         for (int i = 0; i < vector.Length; i++)
         {
-            vector[i] = random.Next(1, 100);
+            vector[i] = random.Next(0, 100);
             Console.WriteLine(vector[i]);
             Console.WriteLine("------------------------------");
         }
@@ -32,7 +40,7 @@ class Program
         Console.WriteLine("O valor {0} esta na posição {1}", precurado, pos);
         Console.WriteLine("==============================");
 
-        //public void CopyTo(Arry_de_origin, Array_De_destino, Quantidade_de_Elementos)
+        //public void Copy(Arry_de_origin, Array_De_destino, Quantidade_de_Elementos)
         Console.WriteLine("==============================");
         Console.WriteLine("Copy");
         Console.WriteLine("Copia dos elementos do vetor 01 para o vetor 2");
@@ -59,5 +67,20 @@ class Program
         Console.WriteLine("O Menor indice do vector {0}", MenorIndeceDoVetor);
         Console.WriteLine("A Menor Indice do Matris {0}", MenorIndeceDaMatris_D1);
         Console.WriteLine("==============================");
+        //public long GetLongLenght(dimenção);
+        Console.WriteLine("GetLongLenght");
+        long TamanhoDoVetor = long1.GetLongLenght(0); // Arry de uma dimenção
+        long TamanhoDaMatriz = long2.GetLongLenght(1);
+        Console.WriteLine("o tamanho do vetor {}", TamanhoDoVetor);
+        Console.WriteLine("o tamanho da matriz {}", TamanhoDaMatriz);
+        Console.WriteLine("------------------------------");
+        /*
+        //public int GetUpperBound(dimenção);
+        Console.WriteLine("GetUpperBound");
+        int MaiorIndeceDoVetor = vector4.GetUpperBound(0);
+        int MaiorIndiceDaMatriz = matriz.GetUpperBound(1);
+        Console.WriteLine("O maior indice do vetor4 é {}", MaiorIndeceDoVetor);
+        Console.WriteLine("O maior indice da matriz é {}", MaiorIndiceDaMatriz);
+        */
     }
 }
